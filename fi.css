@@ -1,0 +1,38 @@
+.body{
+    padding:0px;
+    width:100vw;
+    height:100vh;
+    margin:0px;
+    box-sizing:border-box;
+}
+
+#head{
+    display:flex;
+    justify-content: space-around;
+    background-color:black;
+    padding-left: 150px;
+    padding-right:180px;
+}
+#head>a{
+    padding-top:10px;
+    color:white;
+}
+
+
+section{
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    padding-inline: 100px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+section>div{
+    font-size:15px;
+    font-weight: 20px;
+    line-height:5px;
+}
+
+.foot{
+    text-align: center;
+}
